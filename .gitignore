@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+.env
+*.pyc
+
+# training checkpoints
+models/legal_classifier/
+models/legal_model/
+checkpoint-*/
+runs/
+logs/
+
+# optional: ignore local test/debug files
+h.py
